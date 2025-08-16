@@ -1,0 +1,388 @@
+<!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+
+	<head>
+		<title>Vinatha's Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<!-- Internal Styles for Circular Image -->
+		<style>
+			/* Circular Image Styling */
+			html {
+            scroll-behavior: smooth;
+        }
+			.circular-image {
+				width: 250px; /* Adjust the size as needed */
+				height: 250px;
+				border-radius: 50%; /* Makes the image circular */
+				object-fit: cover; /* Ensures the image covers the entire area without distortion */
+				/*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds a subtle shadow for depth */
+				transition: transform 0.3s ease; /* Optional: Adds a smooth hover effect */
+				display: block; /* Ensures the image behaves as a block element */
+				margin: 0 auto 30px auto; /* Centers the image and adds space below */
+			}
+	
+			/* Hover Effect (Optional) */
+			.circular-image:hover {
+				transform: scale(1.05); /* Slightly enlarges the image on hover */
+			}
+	
+			/* Profile Container Styling */
+			.profile-container {
+				width: 250px; /* Should match the image size */
+				height: 250px;
+				border-radius: 50%;
+				overflow: hidden; /* Ensures the image fits within the circular container */
+				box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Matches the image shadow */
+				margin: 0 auto 30px auto; /* Centers the container */
+			}
+			.features a.image:hover img {
+        transform: scale(1.1) ; /* Slightly enlarge the image */
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+		opacity: 0.9; 
+    }
+	/* Greeting Text Styling */
+.greeting-text {
+    position: absolute; /* Position the text absolutely */
+    top: 30%; /* Move the text down (adjust as needed) */
+    left: 30%; /* Move the text towards the right */
+    transform: translate(-50%, -150%); /* Center horizontally and move it above the image */
+    text-align: center; /* Center the text */
+    color: white; /* Adjust to match your theme */
+    font-family: 'Arial', sans-serif;
+}
+
+.greeting-text h2 {
+    font-size: 2rem; /* Adjust font size as needed */
+    font-weight: normal; /* Make "Hi There!" less bold */
+}
+
+.greeting-text strong {
+    font-weight: bold; /* Make "Vinatha Viswanathan" bold */
+    color: var(--primary-color); /* Match primary accent color */
+}
+
+	
+			
+		</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="index.html">Vinatha's Portfolio</a></h1>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+				<nav id="menu">
+					<div class="inner">
+						<h2>Menu</h2>
+						<ul class="links">
+							<li><a href="#banner">About Me</a></li>
+							<li><a href="#resume">My Resume</a></li>
+							<li><a href="#one">Experiences</a></li>
+							<li><a href="#four">Projects</a></li>
+							<li><a href="#Five">Education</a></li>
+							<li><a href="#seven">Technical Blog</a></li>
+							<li><a href="#skills">Skills</a></li>
+							<li><a href="#contact">Contact Me</a></li>
+						</ul>
+						<a href="#" class="close">Close</a>
+					</div>
+				</nav>
+
+	
+
+				
+
+				<!-- Banner -->
+				
+				
+<section id="banner">
+    <div class="inner">
+
+		
+        <!-- Profile Picture -->
+        <div class="profile-container">
+            <img src="Vinatha_Image.jpeg" alt="Vinatha's Profile Picture" class="circular-image" />
+        </div>
+
+        <!-- About Me Heading -->
+        <h1 style="text-transform: none;">Hi there ! I am</h1><h2 style="text-transform: none;"><strong>Vinatha Viswanathan</strong></h2>
+        <!-- <h1 style="text-transform: none;">Data Science and Engineering</h1> -->
+        <!-- Social Icons -->
+        <div style="margin: 10px 0;">
+            <a href="https://www.linkedin.com/in/vinatha-viswanathan/" target="_blank" style="margin: 0 10px;">
+                <i class="icon brands fa-linkedin fa-lg"></i>
+            </a>
+            <a href="https://github.com/VinathaViswanathan" target="_blank" style="margin: 0 10px;">
+                <i class="icon brands fa-github fa-lg"></i>
+            </a>
+			<a href="mailto:vinatha.viswanathan1210@gmail.com" target="_blank" style="margin: 0 10px;">
+				<i class="fas fa-envelope fa-lg"></i>
+			</a>
+            <a href="https://vinathaviswanathan.hashnode.dev/" target="_blank" style="margin: 0 10px;">
+                <i class="icon solid fa-feather fa-lg"></i>
+            </a>
+        </div>
+
+        <!-- About Me Content -->
+        <p style="text-align: left; text-transform: none;">With a background as a Software Engineer, I have a proven track record of delivering impactful data-driven solutions. I've collaborated with global financial leaders like Citi Bank, where I contributed to the development of enterprise-grade backend systems using Springboot microservices, state machines, and Kafka to stream real-time data across downstream platforms—ensuring scalable, reliable, and efficient data processing within complex enterprise environments.</p>
+		<p style="text-align: left; text-transform: none;">Currently pursuing a Master’s in Data Analytics Engineering, I continue to explore the cutting edge of Generative AI through hands-on projects involving RAG, LLM Chains, and MCP server-based agents. In addition, I’m also passionate about Data Engineering and have explored the area through hands-on projects involving real-time data streaming, data pipeline orchestration, and dimensional data modeling—including the implementation of star schemas and handling of slowly changing dimensions (SCDs) to support robust, analytics-ready architectures. I enjoy transforming ambitious ideas into well-engineered, scalable solutions.</p>
+		<p style="text-align: left; text-transform: none;">Whether it's building backend APIs, designing data pipelines, or experimenting with new AI frameworks, I thrive at the intersection of software engineering, data engineering, and Applied AI—constantly pushing boundaries and learning through practice.</p>
+    </div>
+</section>
+
+				<section id="resume" class="wrapper alt style1">
+					<div class="inner" style="text-align: center;">
+						<!-- Get in Touch Title -->
+						<h2 class="major"> My Resume</h2>
+
+						<!-- Description -->
+						<p>Explore my journey in more detail. Download my full resume here.</p>
+
+						<object data="Vinatha_Viswanathan_Resume_August2025.pdf" type="application/pdf" width="100%" height="600px">
+							<p>Your browser does not support PDFs.
+								<a href="Vinatha_Viswanathan_Resume_August2025.pdf" download>Download the PDF</a>.</p>
+						</object>
+					</div>
+				</section>
+
+				<!-- Wrapper -->
+
+					<section id="wrapper">
+						<section id="education-title" class="wrapper style2">
+							<div class="inner" style="text-align: left;">
+								<h2 class="major">Experience</h2>
+							</div>
+						</section>
+
+						<!-- One -->
+						
+						<section id="one" class="wrapper spotlight style1">
+							<div class="inner">
+								<a href="https://www.citigroup.com/global/businesses/wealth" target="_blank" class="image">
+									<img src="Citi_Bank.jpeg" alt="Citi Bank" />
+								</a>
+								<div class="content" style="text-align: justify;">
+									<h2 class="major">Software Engineer</h2>
+									<ul>
+										<li>
+											Designed and deployed cloud-native software components using Spring Boot, Java 8, Docker, and Kubernetes to replace antiquated mainframe systems, achieving a 50% increase in system reliability and enabling near-zero downtime through robust CI/CD pipelines powered by Jenkins.</li>
+										<li>
+											Built a modular data sync pipeline with two Spring Boot microservices—one for Kafka-based data extraction and streaming, and another for transformation and loading. Integrated persistent state machines at each stage for record-level state tracking, enhancing observability, error handling, and auditability, with system health monitored via Splunk.</li>
+										<li>
+											Engineered a proprietary microservice framework featuring adaptive integration with multi-node caching and RDBMS clusters, supported by geo-aware load balancing and in-built telemetry. Boosted system performance and developer efficiency through prebuilt utilities, reusable components, and centralized configuration management.</li>
+										
+									</ul>
+								</div>
+							</div>
+						</section>
+						
+
+
+					<!-- Two -->
+					<section id="one" class="wrapper spotlight style1">
+						<div class="inner">
+							<a href="https://zifornd.com/" target="_blank" class="image">
+								<img src="Zifo_Image.jpeg" alt="Zifo Technologies" />
+							</a>
+							<div class="content" style="text-align: justify;">
+								<h2 class="major">Applications Analyst</h2>
+								<ul>
+									<li>
+										Engineered an audit logging system using  map diff algorithms, and custom API endpoints to capture before/after values of user modifications in ELNs, ensuring full traceability, compliance, and secure version tracking in a regulated environment.	</li>
+									<li>
+										Developed custom Java-based plugins to extend ELN (Electronic Lab Notebook) systems with enhanced functionalities such as advanced search, data validation rules, and improving research data quality in laboratory workflows.				</li>
+									<li>
+										Built middleware using Java to enable real-time data exchange between ELN, LIMS, and inventory systems via REST APIs and message queues.									</li>
+									
+								</ul>
+							</div>
+						</div>
+					</section>
+						
+
+						<!-- Four -->
+							<section id="four" class="wrapper alt style1">
+								<div class="inner">
+									<h2 class="major">Projects</h2>
+									<section class="features">
+										<article>
+											<a  class="image"><img src="MCP_Image.png" alt="transformer" /></a>
+											<h3 class="major">Real-Time Documentation Search via MCP Client-Server</h3>
+											<p class="project-description">
+												Built an MCP-based client-server application to perform real-time Google searches for the latest Langchain documentation, enabling dynamic, up-to-date access through a lightweight protocol-driven architecture.
+												Developed a custom MCP server to handle and parse search queries, returning relevant documentation links, and a Streamlit-based chatbot client for natural language interaction with the system.
+												Showcased the effectiveness of MCP as a minimal, extensible communication layer by abstracting browser-based search into structured client-server messaging for automated web-data retrieval.</p>
+											<a href="https://github.com/VinathaViswanathan/Document-Retrieval-MCP" class="special" target="_blank">Learn more</a>
+										</article>
+										<article>
+											<a  class="image"><img src="RAG_Image.jpg" alt="" /></a>
+											<h3 class="major">Umbrella Onboard: A Personalized AI Onboarding Assistant for Employees</h3>
+											<p >Umbrella Onboard is an AI-powered onboarding assistant designed to help new employees navigate company policies and procedures. It uses Streamlit for the user interface, LangChain to manage prompts and context, and Retrieval-Augmented Generation (RAG) to deliver accurate, personalized responses. The assistant combines synthetic employee profiles with internal policy documents stored in a ChromaDB vector database for semantic search. Employees can ask questions about benefits, safety protocols, or leave policies and receive real-time, LLM-generated responses tailored to their role and department. Key features include contextual answers, vector-based document retrieval, streaming responses, session caching, and built-in support for common onboarding queries.</p>
+											<a href="https://github.com/VinathaViswanathan/RAG-Onboarding-Assistant" class="special" target="_blank">Learn more</a>
+										</article>
+										<article>
+											<a  class="image"><img src="Streaming_Image.jpeg" alt="" /></a>
+											<h3 class="major">StreamPulse: High-Throughput Streaming Pipeline with Redpanda and Spark</h3>
+											<p >StreamPulse is a high-throughput streaming application built with a three-node Redpanda cluster and Apache Spark for real-time data transformation. It features custom data producers in Java and Python, enabling a performance comparison. The Java producer achieved over 60,000 records/sec, while the Python version reached only 2,000 records/sec. This gap is due to Java’s compiled execution, true multi-threading, and better integration with Kafka-based systems, compared to Python’s interpreted nature and GIL-related limitations. The project highlights how language and infrastructure choices affect streaming performance.</p>
+											<a href="https://github.com/VinathaViswanathan/RealtimeStreamingPythonKafkaSpark" class="special" target="_blank">Learn more</a>
+										</article>
+										<article>
+											<a  class="image"><img src="CVSS-Score.png" alt="" /></a>
+											<h3 class="major">CVSS Severity Prediction from Vulnerability Descriptions</h3>
+											<p >Leveraged machine learning model to predict the CVSS (Common Vulnerability Scoring System) score of software vulnerabilities using both structured metadata and unstructured text data (e.g., CWE names and summaries). The goal is to assist in vulnerability prioritization when official scores are missing or delayed. The pipeline involves comprehensive data preprocessing, text vectorization, feature engineering, and model training using a Random Forest Regressor.</p>
+											<a href="https://github.com/VinathaViswanathan/Vulnerability-Severity-Prediction/tree/main" class="special" target="_blank">Learn more</a>
+										</article>
+									</section>
+									
+								</div>
+							</section>
+
+				            <section id="education-title" class="wrapper style2">
+								<div class="inner" style="text-align: left;">
+									<h2 class="major">Education</h2>
+								</div>
+							</section>
+
+		<!-- Five -->
+		<section id="Five" class="wrapper spotlight style1">
+			<div class="inner">
+				<a href="https://www.northeastern.edu/" class="image" target="_blank"><img src="nou.jpg" alt="Northeastern University" /></a>
+				<div class="content" style="text-align: Left;">
+					<h2 class="major">Northeastern University Seattle (2025-2027) </h2>
+					<h2>Master of Science in Data Analytic's Engineering </h2>
+					<ul style="text-align: justify;">
+						<li><strong>Courses:</strong> Data Analytics, Computation and Visualization, Data Mining, Database Design, Machine Learning, Generative AI, Natural Language Processing, Machine Learning</li>
+					</ul>
+					
+				</div>
+			</div>
+		</section>
+
+		<!-- Six -->
+        <section id="Six" class="wrapper spotlight style1">
+			<div class="inner">
+				<a href="https://www.annauniv.edu/#gsc.tab=0" class="image"  target="_blank"><img src="au.jpg" alt="Anna University" /></a>
+				<div class="content" style="text-align: left;">
+					<h2 class="major">Anna University (2017-2021) </h2>
+					<h2>Bachelor of Technology in Chemical Engineering cgpa: 9.43/10</h2>
+					<ul style="text-align: justify;">
+						<li><strong>Courses Taken:</strong> Probability and Statistics, Numerical Methods, Computational Programming, Data structures and Algorithms, Process Instrumentation Design and Control</li>
+					<li><strong>Achievements</strong>
+						<ul><li>University Rank Holder (2021)</li>
+							<li>Merit Scholarship Holder (2018-2019 & 209-2020)</li></ul>
+					 
+					</ul>
+					
+				</div>
+			</div>
+		</section>
+				
+		<!-- Seven -->
+		<section id="seven" class="wrapper alt style1">
+			<div class="inner">
+				<h2 class="major">Technical Blogs</h2>
+				<section class="features">
+					<article>
+						<a href="https://vinathaviswanathan.hashnode.dev/building-with-llms-how-generative-ai-is-reshaping-the-way-we-code-think-and-create" class="image" target="_blank">
+							<img src="LLM_Evol_Post.avif" alt="History of LLMs" />
+						</a>
+						<a href="https://vinathaviswanathan.hashnode.dev/building-with-llms-how-generative-ai-is-reshaping-the-way-we-code-think-and-create" target="_blank">
+							<h3 class="major">Building with LLMs: How Generative AI Is Reshaping the Way We Code, Think, and Create</h3>
+						</a>
+					</article>
+
+				</section>
+				
+			</div>
+		</section>
+
+		
+
+		<section id="skills" class="wrapper alt style1">
+			<div class="inner" style="text-align: center;">
+				<h2 class="major">Skills</h2>
+				<div class="skills-container" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+		
+					<!-- Languages -->
+					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" style="width: 60px; height: 60px;" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" style="width: 60px; height: 60px;" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" style="width: 60px; height: 60px;" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" style="width: 60px; height: 60px;" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" style="width: 60px; height: 60px;" />
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png" alt="SQL" style="width: 60px; height: 60px;" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="NoSQL (MongoDB)" style="width: 60px; height: 60px;" />
+
+<!-- Tools -->
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" style="width: 60px; height: 60px;" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" style="width: 60px; height: 60px;" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/insomnia/insomnia-original.svg" alt="Postman" style="width: 60px; height: 60px;" />
+
+
+<!-- Libraries -->
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="NumPy" style="width: 60px; height: 60px;" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas" style="width: 60px; height: 60px;" />
+
+					
+				</div>
+			</div>
+		</section>
+		
+					
+
+				<!-- Footer -->
+				<section id="contact" class="wrapper alt style1">
+					<div class="inner" style="text-align: center;">
+						<!-- Get in Touch Title -->
+						<h2 class="major">Get in touch</h2>
+						
+						<!-- Description -->
+						<p>Thank you for visiting my portfolio. If you have any inquiries or opportunities to discuss, please feel free to get in touch !</p>
+						
+						<!-- Email -->
+						<p>
+							<i class="icon solid fa-envelope"></i>
+							<a href="mailto:vinatha.viswanathan1210@gmail.com">vinatha.viswanathan1210@gmail.com</a>
+						</p>
+						
+						<!-- Social Icons -->
+						<div style="margin: 20px 0;">
+							<a href="https://www.linkedin.com/in/vinatha-viswanathan/" target="_blank" style="margin: 0 10px;">
+								<i class="icon brands fa-linkedin fa-2x"></i>
+							</a>
+							<a href="https://github.com/VinathaViswanathan" target="_blank" style="margin: 0 10px;">
+								<i class="icon brands fa-github fa-2x"></i>
+							</a>
+							<a href="https://vinathaviswanathan.hashnode.dev/" target="_blank" style="margin: 0 10px;">
+								<i class="icon solid fa-feather fa-2x"></i>
+							</a>
+						</div>
+					</div>
+				</section>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
